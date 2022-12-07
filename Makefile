@@ -4,4 +4,4 @@ build:
 
 .PHONY: shell
 shell:
-	docker run `pwd`:/code --rm -it sh
+	docker run -v `pwd`:/code --rm -it aoc sh
